@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Funora – Luxury Landing</title>
+  <style>
+    /* Reset & Base */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: "Helvetica Neue", Arial, sans-serif; background: #0a0a0a; color: #fff; line-height: 1.6; }
+    h1,h2,h3 { font-weight: 700; letter-spacing: 1px; }
+
+    /* Layout */
+    .section { padding: 100px 20px; max-width: 1200px; margin: auto; text-align: center; }
+    .hero { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+    .hero h1 { font-size: 4rem; margin-bottom: 20px; }
+    .hero p { max-width: 700px; color: #aaa; font-size: 1.2rem; margin-bottom: 40px; }
+    .btn { padding: 12px 30px; border: 1px solid #555; border-radius: 30px; color: #fff; text-decoration: none; transition: 0.3s; }
+    .btn:hover { border-color: #fff; }
+
+    /* About */
+    #about p { color: #bbb; max-width: 800px; margin: auto; font-size: 1.1rem; }
+
+    /* Features */
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 40px; }
+    .feature { background: #111; border: 1px solid #222; border-radius: 12px; padding: 30px; transition: 0.3s; }
+    .feature:hover { border-color: #555; }
+    .feature h3 { margin-bottom: 15px; }
+
+    /* Gallery */
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 40px; }
+    .gallery div { height: 200px; background: #1a1a1a; border: 1px solid #222; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #666; font-size: 1.2rem; transition: 0.3s; }
+    .gallery div:hover { border-color: #555; }
+
+    /* Footer */
+    footer { padding: 40px 20px; border-top: 1px solid #222; text-align: center; color: #777; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Funora</h1>
+    <p>A timeless digital experience, where play meets prestige.<br> Crafted for those who value elegance and excellence.</p>
+    <a href="#about" class="btn">Discover More</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>The Legacy of Fun</h2>
+    <p>Funora is more than entertainment. It’s a crafted experience, blending laughter, games, and community into a world of elegance. Like a timeless watch or a fine ride, it’s designed to last.</p>
+  </section>
+
+  <!-- Features -->
+  <section class="section">
+    <h2>Our Essence</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Precision Play</h3>
+        <p>Games designed with detail and balance, just like fine engineering.</p>
+      </div>
+      <div class="feature">
+        <h3>Refined Community</h3>
+        <p>A circle of creators and friends built on respect and good taste.</p>
+      </div>
+      <div class="feature">
+        <h3>Timeless Moments</h3>
+        <p>Quick laughter, lasting memories — an experience to return to.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section">
+    <h2>Crafted Showcase</h2>
+    <div class="gallery">
+      <div>Image 1</div>
+      <div>Image 2</div>
+      <div>Image 3</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <script>document.write(new Date().getFullYear());</script> Funora — All Rights Reserved</p>
+    <p>Elegance in every detail</p>
+  </footer>
+
+</body>
+</html>
